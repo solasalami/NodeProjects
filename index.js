@@ -3,4 +3,4 @@ const Area = (radius) => {
     return 3.14 * radius * radius;
 }
 
-console.log(Area(78));
+console.log(Area(300));
