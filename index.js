@@ -4,3 +4,10 @@ const Area = (radius) => {
 }
 
 console.log(Area(300));
+
+const Person = {
+     Name : "Sola",
+     Age  : 28
+};
+
+console.log("" + JSON.stringify(Person));
