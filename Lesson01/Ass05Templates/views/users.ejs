@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= pageTitle %>
+    </title>
+</head>
+
+<body>
+    <h1>Welcome to All Users Below :</h1>
+
+    <% if (user.length > 0) { %>
+
+        <% for (let users of user) { %>
+            <ul>
+                <li>User :
+                    <% console.log("User " + users) %>
+
+                </li>
+            </ul>
+            <% } %>
+                <% } %>
+
+</body>
+
+</html>

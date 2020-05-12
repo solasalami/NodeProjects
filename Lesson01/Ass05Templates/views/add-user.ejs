@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= pageTitle %>
+    </title>
+</head>
+
+<body>
+    <p> Add User</p>
+</body>
+<form method="POST" action="/admin/add-user">
+    <div>
+        <label for="userName" id="lblUsername"></label>
+        <input type="text" id="userName" name="userName" />
+    </div>
+    <button type="submit" id="btnSubmit">Submit</button>
+</form>
+
+</html>
