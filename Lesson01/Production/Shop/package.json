@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "Complete Node.js Guide",
     "main": "app.js",
+    "engines": {
+        "node": "v12.0.0"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "NODE_ENV=production MONGO_USER=solami MONGO_PASSWORD=HeZlKdf51yjMASD2 MONGO_DEFAULT_DATABASE=shop STRIPE_KEY=sk_test_bLHmEJrifw4Bj0zrjcp8BJC600RalrDWgM node app.js",
